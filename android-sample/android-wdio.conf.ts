@@ -14,8 +14,8 @@ export const config: Options.Testrunner = {
     path: '/wd/hub',
     baseUrl: "https://mobile-hub.lambdatest.com",
 
-    user: "vaneetb",
-    key: "8iwAZa7mEGu7pc41aIkNJpnvHFc5lcIgy1cF4joZatI0lWvP1u",
+    user: "",
+    key: "",
 
     services: [
         [
@@ -35,7 +35,7 @@ export const config: Options.Testrunner = {
 
     capabilities: [{
         platformName: 'Android',
-        app: "lt://APP10160492431717497753131402",
+        app: "",
         "deviceName": "Pixel .*",
         "platformVersion": "12",
         "isRealMobile": true
