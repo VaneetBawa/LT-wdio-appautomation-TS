@@ -14,8 +14,8 @@ export const config: Options.Testrunner = {
     path: '/wd/hub',
     baseUrl: "https://mobile-hub.lambdatest.com",
 
-    user: "vaneetb",
-    key: "8iwAZa7mEGu7pc41aIkNJpnvHFc5lcIgy1cF4joZatI0lWvP1u",
+    user: "",
+    key: "",
 
     services: [
         [
@@ -35,7 +35,7 @@ export const config: Options.Testrunner = {
 
     capabilities: [{
         platformName: 'IOS',
-        app: "lt://APP1016038341717788522393973",
+        app: "",
         "deviceName": "iPhone .*",
         "platformVersion": "15",
         "isRealMobile": true
